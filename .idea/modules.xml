@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyDefineView.iml" filepath="$PROJECT_DIR$/MyDefineView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myappreciatetest/myappreciatetest.iml" filepath="$PROJECT_DIR$/myappreciatetest/myappreciatetest.iml" />
+    </modules>
+  </component>
+</project>
