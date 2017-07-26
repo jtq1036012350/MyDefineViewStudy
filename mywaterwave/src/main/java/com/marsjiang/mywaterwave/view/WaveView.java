@@ -20,6 +20,7 @@ public class WaveView extends View {
     private Paint mAboveWavePaint;
     private PaintFlagsDrawFilter mDrawFilter;
     private float y;
+    private float φ = 0.1f;
 
     public WaveView(Context context) {
         super(context);
@@ -58,7 +59,7 @@ public class WaveView extends View {
 //        super.onDraw(canvas);
         wavePath.reset();
         double w = 2 * Math.PI / getWidth();
-        float φ = 0.1f;
+        φ += 0.1f;
         wavePath.moveTo(getLeft(), getBottom());
         for (float x = 0; x <= getWidth(); x += 20) {
             /**
@@ -71,9 +72,9 @@ public class WaveView extends View {
             y = (float) (8 * Math.cos(w * x + φ) + 8);
             wavePath.lineTo(x, y);
         }
-        wavePath.lineTo(getRight(),getBottom());
-        canvas.drawPath(wavePath,mAboveWavePaint);
+        wavePath.lineTo(getRight(), getBottom());
+        canvas.drawPath(wavePath, mAboveWavePaint);
 
-        invalidate();
+        postInvalidateDelayed(20);
     }
 }
