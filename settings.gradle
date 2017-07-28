@@ -1,1 +1,1 @@
-include ':myappreciatetest', ':mywaterwave'
+include ':myappreciatetest', ':mywaterwave', ':mytimertest'
