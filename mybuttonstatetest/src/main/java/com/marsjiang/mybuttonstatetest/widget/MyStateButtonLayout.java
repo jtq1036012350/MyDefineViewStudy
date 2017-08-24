@@ -12,6 +12,7 @@ import com.marsjiang.mybuttonstatetest.R;
 
 
 /**
+ * 合格不合格按钮封装
  * Created by Jiang on 2017-08-24.
  */
 
@@ -117,12 +118,12 @@ public class MyStateButtonLayout extends LinearLayout {
     }
 
     public void setBtn_qualified() {
-        btn_qualified.setBackgroundColor(getResources().getColor(R.color.colorQualifiedBlue));
+        btn_qualified.setBackgroundColor(colorEnable);
         btn_unqualified.setBackgroundColor(getResources().getColor(R.color.colorQualifiedWhite));
     }
 
     public void setBtn_unqualified() {
-        btn_unqualified.setBackgroundColor(getResources().getColor(R.color.colorQualifiedBlue));
+        btn_unqualified.setBackgroundColor(colorEnable);
         btn_qualified.setBackgroundColor(getResources().getColor(R.color.colorQualifiedWhite));
     }
 }
