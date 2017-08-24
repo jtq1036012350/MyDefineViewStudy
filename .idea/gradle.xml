@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/myappreciatetest" />
+            <option value="$PROJECT_DIR$/mybuttonstatetest" />
             <option value="$PROJECT_DIR$/mytimertest" />
             <option value="$PROJECT_DIR$/mywaterwave" />
           </set>

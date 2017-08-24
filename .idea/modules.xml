@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyDefineView.iml" filepath="$PROJECT_DIR$/MyDefineView.iml" />
       <module fileurl="file://$PROJECT_DIR$/myappreciatetest/myappreciatetest.iml" filepath="$PROJECT_DIR$/myappreciatetest/myappreciatetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybuttonstatetest/mybuttonstatetest.iml" filepath="$PROJECT_DIR$/mybuttonstatetest/mybuttonstatetest.iml" />
       <module fileurl="file://$PROJECT_DIR$/mytimertest/mytimertest.iml" filepath="$PROJECT_DIR$/mytimertest/mytimertest.iml" />
       <module fileurl="file://$PROJECT_DIR$/mywaterwave/mywaterwave.iml" filepath="$PROJECT_DIR$/mywaterwave/mywaterwave.iml" />
     </modules>

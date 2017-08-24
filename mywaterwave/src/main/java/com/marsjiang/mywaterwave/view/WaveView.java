@@ -12,7 +12,7 @@ import android.view.View;
 
 /**
  * 水波纹VIew
- * Created by Jiang on 2017-07-26.
+ * Created by Jiang on 2017-08-23.
  */
 
 public class WaveView extends View {
