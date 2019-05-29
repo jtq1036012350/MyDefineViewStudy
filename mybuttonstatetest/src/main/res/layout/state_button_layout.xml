@@ -8,24 +8,26 @@
         android:id="@+id/btn_qualified"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:paddingLeft="10dp"
         android:background="@color/colorQualifiedWhite"
         android:drawableRight="@mipmap/ic_qualified"
         android:gravity="left|center"
+        android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:text="合格"/>
-<View
-    android:layout_width="match_parent"
-    android:layout_height="1dp"
-    android:background="@android:color/darker_gray"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
     <Button
         android:id="@+id/btn_unqualified"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:paddingLeft="10dp"
         android:background="@color/colorQualifiedWhite"
         android:drawableRight="@mipmap/ic_unqualified"
         android:gravity="left|center"
+        android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:text="不合格"/>
 </LinearLayout>
