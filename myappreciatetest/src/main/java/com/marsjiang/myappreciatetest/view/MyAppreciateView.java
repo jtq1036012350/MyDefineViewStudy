@@ -122,6 +122,4 @@ public class MyAppreciateView extends View {
         canvas.drawCircle((float) (getMeasuredWidth() * (currentNumber / (allNumber * 1.0)) - getMeasuredHeight() / 2), getMeasuredHeight() / 2, getMeasuredHeight() / 2, paintFront);
         invalidate();
     }
-    //测试分支1
-
 }
